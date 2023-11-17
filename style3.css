@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-areas: 'a b';
+  grid-auto-rows: 100px;
+  gap: 10px;
+}
+.box {
+  text-align: center;
+  padding: 35px;
+  font-size: 20px;
+  border: solid black 2px;
+}
+.a {
+  background-color: yellow;
+}
+.b {
+  background-color: lime;
+}
+.c {
+  background-color: aqua;
+}
+.d {
+  background-color: gray;
+}
+/*
+----
+*/
+.parent {
+  display: grid;
+  grid-template-areas: 'A B C';
+  grid-auto-columns: 300px;
+  gap: 10px;
+}
+.child {
+  text-align: center;
+  padding: 35px;
+  font-size: 20px;
+  border: solid black 2px;
+}

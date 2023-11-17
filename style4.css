@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(2, 70px);
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.box {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.box1 {
+  background-color: gray;
+  order: 8;
+}
+.box2 {
+  background-color: lightgray;
+  order: 9;
+}
+.box3 {
+  background-color: gray;
+  order: 2;
+}
+.box4 {
+  background-color: lightgray;
+  order: 3;
+}
+.box5 {
+  background-color: gray;
+  order: 4;
+}
+.box6 {
+  background-color: lightgray;
+  order: 5;
+}
+.box7 {
+  background-color: gray;
+  order: 6;
+}
+.box8 {
+  background-color: lightgray;
+  order: 7;
+}
